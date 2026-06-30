@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareHub | Login</title>
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="popup" id="loginPopup">
+
+        <div class="popup-box">
+
+            <h2>Login to CareHub</h2>
+
+            <p>Welcome back! Please login to continue.</p>
+
+            <form id="loginForm">
+
+                <div class="input-box">
+
+                    <label for="username">Username</label>
+
+                    <input
+                        type="text"
+                        id="username"
+                        placeholder="Enter your username"
+                        required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <label for="password">Password</label>
+
+                    <div class="password-box">
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                            required>
+
+                        <span id="togglePassword">
+                            <i class="fa-solid fa-eye"></i></span>
+
+                    </div>
+
+                </div>
+
+                <div class="popup-buttons">
+
+                    <button
+                        type="submit"
+                        class="login-btn">
+                        Login
+                    </button>
+
+                    <button
+                        type="button"
+                        class="close-btn"
+                        onclick="closePopup()">
+                        Close
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+.appointement-form{
+    margin: 70px auto;
+    background: ;
+    padding: 25px;
+    border-radius: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0b5ed7;
+}

@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f9fb;
+}
+
+.contact-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.map{
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.contact-section h1 {
+  color: #0a6ebd;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-6px);
+}
+
+.contact-box h3 {
+  color: #0a6ebd;
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  color: #333;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .contact-section h1 {
+    font-size: 26px;
+  }
+}

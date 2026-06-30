@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ambulance Form</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- FORM -->
+    <div class="form-section">
+        <h2>Emergency Ambulance</h2>
+        <p>Request immediate medical help</p>
+
+        <form>
+            <input type="text" placeholder="Patient Name" required>
+            <input type="tel" placeholder="Mobile Number" required>
+            <input type="text" placeholder="Pickup Location" required>
+
+            <select required>
+                <option value="">Emergency Type</option>
+                <option>Accident</option>
+                <option>Heart Attack</option>
+                <option>Pregnancy</option>
+            </select>
+
+            <textarea placeholder="Additional Details"></textarea>
+            <button>Request Now</button>
+        </form>
+    </div>
+
+    <div class="road-section">
+        <div class="road">
+            <img src="../images/ambu.jpg" class="ambulance" alt="Ambulance">
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

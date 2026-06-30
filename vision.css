@@ -1,0 +1,469 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#F6FAFD;
+
+    color:#333;
+}
+
+img{
+
+    width:100%;
+
+    display:block;
+}
+
+/* Hero */
+
+.hero{
+
+    height:45vh;
+
+    min-height:320px;
+
+    background:
+    linear-gradient(rgba(3,24,44,.82),
+    rgba(3,24,44,.82)),
+    url("../images/doctor-walking.png") no-repeat center center;
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:#fdfdfd;
+
+    padding: 12px 20px;
+}
+
+.hero h1{
+
+    font-size:42px;
+    font-weight:700;
+    text-shadow: 0 2px 10px rgba(0,0,0,.7);
+
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto 0;
+    line-height: 1.6;
+    text-shadow: 0 2px 8px rgba(0,0,0,.7);
+}
+
+/* Vision Section */
+
+.vision{
+
+    max-width:1200px;
+
+    margin:90px auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:60px;
+
+    padding:0 20px;
+}
+
+.vision-image{
+
+    flex:1;
+}
+
+.vision-image img{
+
+    border-radius:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.vision-content{
+
+    flex:1;
+}
+
+.vision-content h2{
+
+    font-size:42px;
+
+    color:#0F4C81;
+
+    margin-bottom:25px;
+}
+
+.vision-content p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#555;
+
+    margin-bottom:30px;
+}
+
+.vision-points{
+
+    display:grid;
+
+    gap:18px;
+
+    font-size:18px;
+
+    color:#0F4C81;
+
+    font-weight:600;
+}
+
+/* ===========================
+   Core Principles
+=========================== */
+
+.principles{
+
+    padding:90px 20px;
+
+    background:#ffffff;
+}
+
+.principles h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#0F4C81;
+
+    margin-bottom:60px;
+}
+
+.principle-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+}
+
+.principle-card{
+
+    background:#F6FAFD;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s ease;
+}
+
+.principle-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 22px 45px rgba(0,0,0,.15);
+}
+
+.icon{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+}
+
+.principle-card h3{
+
+    color:#0F4C81;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+}
+
+.principle-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    font-size:16px;
+}
+
+/* ===========================
+   Mission
+=========================== */
+
+.mission{
+
+    background:#0F4C81;
+
+    color:white;
+
+    text-align:center;
+
+    padding:90px 20px;
+}
+
+.mission h2{
+
+    font-size:42px;
+
+    margin-bottom:25px;
+}
+
+.mission p{
+
+    max-width:850px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+    font-size:18px;
+}
+
+
+/* ===========================
+   Core Values
+=========================== */
+
+.values{
+
+    padding:90px 20px;
+
+    background:#F6FAFD;
+}
+
+.values h2{
+
+    text-align:center;
+
+    color:#0F4C81;
+
+    font-size:42px;
+
+    margin-bottom:60px;
+}
+
+.value-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+}
+
+.value-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+}
+
+.value-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.value-card h3{
+
+    color:#0F4C81;
+
+    margin-bottom:20px;
+
+    font-size:24px;
+}
+
+.value-card p{
+
+    color:#666;
+
+    line-height:1.8;
+}
+
+
+/* ===========================
+   Quote
+=========================== */
+
+.quote{
+
+    padding:90px 20px;
+
+    text-align:center;
+
+    background:white;
+}
+
+.quote h2{
+
+    color:#00A8A8;
+
+    font-size:40px;
+
+    margin-bottom:25px;
+}
+
+.quote p{
+
+    color:#666;
+
+    font-size:18px;
+}
+
+
+/* ===========================
+   Footer
+=========================== */
+
+.footer{
+
+    background:#081B29;
+
+    color:white;
+
+    text-align:center;
+
+    padding:45px 20px;
+}
+
+.footer h2{
+
+    margin-bottom:15px;
+
+    font-size:30px;
+}
+
+.footer p{
+
+    margin-top:10px;
+
+    color:#ddd;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+    .vision{
+
+        flex-direction:column;
+
+        text-align:center;
+    }
+
+    .vision-content{
+
+        order:2;
+    }
+
+    .vision-image{
+
+        order:1;
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .hero h1{
+
+        font-size:42px;
+    }
+
+    .hero p{
+
+        font-size:17px;
+    }
+
+    .vision-content h2,
+    .principles h2,
+    .mission h2,
+    .values h2,
+    .quote h2{
+
+        font-size:34px;
+    }
+
+}
+
+
+@media(max-width:480px){
+
+    .hero{
+
+        min-height:280px;
+    }
+
+    .hero h1{
+
+        font-size:30px;
+    }
+
+    .hero p{
+
+        font-size:15px;
+    }
+
+    .vision{
+
+        margin:60px auto;
+    }
+
+    .principle-card,
+    .value-card{
+
+        padding:25px;
+    }
+
+    .quote h2{
+
+        font-size:26px;
+    }
+
+}
